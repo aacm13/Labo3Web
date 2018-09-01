@@ -48,3 +48,19 @@ article{
     height: 39em;
     width: 59em;
 }
+.blogImg{
+    position: absolute;
+    transform: rotate(-5deg);
+}
+#blog{
+    position: relative;
+    transform: translate(-28.7em, 3em);
+}
+
+.chessImg{
+    position: relative;
+    transform: rotate(20deg);
+}
+#chess{
+    transform: translate(17em, 7em);
+}
