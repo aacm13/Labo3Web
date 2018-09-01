@@ -12,7 +12,7 @@ td:hover.par{
 td.impar{
     height: 5em;
     width:5em;
-    background-image: linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-image: linear-gradient(0deg, rgb(221, 221, 221), rgb(221, 221, 221));
     /*border: 0.1em solid black;*/
     border-collapse: collapse;
 }
@@ -37,12 +37,39 @@ div{
 #foot td{
     padding-left:2em;
     padding-right: 2em;
+    color:#d35400;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#foot td span{
+    color:rgb(182, 182, 182);
 }
 a{
     text-decoration: none;
-    color: rgb(107, 9, 2);
+    color: rgb(180, 180, 180);
 }
 a:hover{
-    color: rgb(170, 16, 5);
+    color: rgb(236, 236, 236);
 }
+footer{
+    height: 8em;
+    width:100%;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    transform: translate(-0.5em, 50%)
+}
+h1{
+    font-size: 3em;
+    font-family:'Monoton', cursive;
+    font-weight: 100;
+    border-bottom: 1px;
+    border-top: 1px;
+}
+header{
+    height: 3.5em;
+    position: relative;
+    transform: translate(0em, -1em);
+    vertical-align: top;
+}
+
 
